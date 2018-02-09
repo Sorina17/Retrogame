@@ -1,3 +1,9 @@
-/**
- * Created by lindseydewit on 09-02-18.
- */
+let keysDown = {};
+
+window.addEventListener("keydown", function(event) {
+    keysDown[event.keyCode] = true;
+});
+
+window.addEventListener("keyup", function(event) {
+    delete keysDown[event.keyCode];
+});

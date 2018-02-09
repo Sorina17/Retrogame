@@ -1,3 +1,4 @@
-/**
- * Created by lindseydewit on 09-02-18.
- */
+let animate = window.requestAnimationFrame ||
+    window.webkitRequestAnimationFrame ||
+    window.mozRequestAnimationFrame ||
+    function(callback) { window.setTimeout(callback, 1000/60) };
