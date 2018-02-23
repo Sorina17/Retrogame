@@ -26,8 +26,8 @@
       <file leaf-file-name="pong.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pong.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-343">
-              <caret line="113" column="40" lean-forward="true" selection-start-line="113" selection-start-column="40" selection-end-line="113" selection-end-column="40" />
+            <state relative-caret-position="1067">
+              <caret line="158" column="28" lean-forward="false" selection-start-line="158" selection-start-column="28" selection-end-line="158" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -207,12 +207,12 @@
       <option name="presentableId" value="Default" />
       <updated>1518164362943</updated>
       <workItem from="1518164379782" duration="3264000" />
-      <workItem from="1519372017643" duration="4344000" />
+      <workItem from="1519372017643" duration="5556000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7608000" />
+    <option name="totallyTimeSpent" value="8820000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1139" height="707" extended-state="0" />
@@ -329,14 +329,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/position.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -353,10 +345,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pong.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-343">
-          <caret line="113" column="40" lean-forward="true" selection-start-line="113" selection-start-column="40" selection-end-line="113" selection-end-column="40" />
+        <state relative-caret-position="1067">
+          <caret line="158" column="28" lean-forward="false" selection-start-line="158" selection-start-column="28" selection-end-line="158" selection-end-column="28" />
           <folding />
         </state>
       </provider>

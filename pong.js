@@ -155,16 +155,16 @@ Paddle.prototype.move = function(x, y) {
 };
 Computer.prototype.update = function(ball) {
     let x_pos = ball.x;
-    let diff = -((this.paddle.x + (this.paddle.height / 2)) - x_pos);
-    if(diff < 0 && diff < 4) { // max speed left
+    let diff = +((this.paddle.y + (this.paddle.height / 2)) - x_pos);
+    if(diff < 0 && diff < -4) { // max speed left
         diff = 5;
-    } else if(diff > 0 && diff > -4) { // max speed right
+    } else if(diff > 0 && diff > 4) { // max speed right
         diff = -5;
     }
     this.paddle.move(diff, 0);
-    if(this.paddle.x < 0) {
-        this.paddle.x = 0;
-    } else if (this.paddle.x + this.paddle.height > 625) {
-        this.paddle.x = 625 - this.paddle.height;
+    if(this.paddle.x < 25) {
+        this.paddle.x = 25;
+    } else if (this.paddle.x + this.paddle.height > 25) {
+        this.paddle.x = 25 - this.paddle.height;
     }
 };
